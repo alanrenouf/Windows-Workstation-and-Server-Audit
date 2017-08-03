@@ -169,7 +169,6 @@ Write-Output "Collating Detail for $Target"
 		2 { $ComputerRole = "Standalone Server" }
 		3 { $ComputerRole = "Member Server" }
 		4 { $ComputerRole = "Domain Controller" }
-		5 { $ComputerRole = "Domain Controller" }
 		default { $ComputerRole = "Information not available" }
 	}
 	
